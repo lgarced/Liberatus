@@ -147,7 +147,7 @@ const Home: NextPage = () => {
                               width={30}
                               height={30}
                               alt="GarcedDev Logo"
-                              className="h-8 w-auto lg:h-10"
+                              className="h-8 w-auto lg:h-6"
                               layout="responsive"
                               src={logo}
                             />
