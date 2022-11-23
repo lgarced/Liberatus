@@ -15,7 +15,7 @@ const Header = () => {
             <div className="rounded-md shadow">
               <a
                 href="/portfolios"
-                className="flex w-full items-center justify-center rounded-md border border-transparent text-gray-500 px-8 py-3 text-base font-medium text-sky-500 hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
+                className="flex w-full items-center justify-center rounded-md border border-transparent text-gray-500 px-8 py-3 text-base font-medium text-sky-500 hover:bg-gray-700 md:py-4 md:px-10 md:text-lg"
               >
                 My Portfolio
               </a>
