@@ -14,7 +14,7 @@ export const BlogItem: FunctionComponent<Props> = ({blog}) => {
     <div className="group">
       <div className="h-80 aspect-w-1 aspect-h-1 w-full rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-40">
         <Link href={`/blogs/${blog.slug}`}>
-          <a>
+          <div>
             <div className="relative h-80 aspect-w-1 aspect-h-1 w-full rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-40">
               <Image
                 priority
@@ -25,7 +25,7 @@ export const BlogItem: FunctionComponent<Props> = ({blog}) => {
                 alt={""}
               />
             </div>
-          </a>
+          </div>
         </Link>
       </div>
       <div className="mt-4 flex justify-between">
@@ -41,9 +41,9 @@ export const BlogItem: FunctionComponent<Props> = ({blog}) => {
       </div>
       <Link 
         href={`/blogs/${blog.slug}`}>
-        <a className="text-sm font-bold text-gray-700">
+        <div className="text-sm font-bold text-gray-700">
           Read More
-        </a>
+        </div>
       </Link>
     </div>
   )

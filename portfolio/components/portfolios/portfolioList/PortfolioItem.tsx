@@ -21,12 +21,10 @@ export const PortfolioItem: FunctionComponent<Props> = ({portfolio}) => {
         />
       </div>
       <h3 className="mt-6 text-sm text-gray-500">
-        <Link href={`/portfolios/${portfolio.slug}`}>
-          <a>
+        <Link href={`/portfolios/${portfolio.slug}`}><a>
             <span className="absolute inset-0" />
             { shortify(portfolio.title) }
-          </a>
-        </Link>
+          </a></Link>
       </h3>
       <p className="text-base font-semibold text-gray-900">{ shortify(portfolio.description) }</p>
     </div>
