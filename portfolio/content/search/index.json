@@ -1,20 +1,14 @@
 [
   {
     "slug": "markdown-example",
-    "title": "Markdown Extensive Example UPDATED",
-    "description": "Learn how to write markdown",
+    "title": "New Blogs Will be coming soon!",
+    "description": "Page is under construction. 🚧",
     "category": "blogs"
   },
   {
     "slug": "tiempo",
     "title": "Tiempo",
     "description": "A basic JavScript application",
-    "category": "portfolios"
-  },
-  {
-    "slug": "data-engineer-opendor",
-    "title": "Data Engineer at Opendoor",
-    "description": "Working with Microsoft Server and Azure",
     "category": "portfolios"
   }
 ]

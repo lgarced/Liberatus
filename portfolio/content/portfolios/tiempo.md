@@ -9,6 +9,9 @@ date: "2022-06-05"
 highlights: [
     Tiempo provides users with a basic weather forecast.,
     Tiempo uses OpenWeather API to get the data of current weather situations.,
-    After users enter their city of preference, 
+    After users enter their city of preference a 5 day weather cast will be returned,
+
 
 ]
+---
+Under construction

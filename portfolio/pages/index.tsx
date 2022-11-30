@@ -31,10 +31,8 @@ const Home: NextPage<Props> = ({blogs, portfolios}) => {
       <h2 
         className="text-2xl font-bold tracking-tight text-gray-900">
           Portfolios
-          <Link href="/portfolios">
-            <a className='text-sm ml-1 text-indigo-600'>
+          <Link href="/portfolio">
               (See All)
-            </a>
           </Link>
       </h2>
       <PortfolioList portfolios={portfolios} />
